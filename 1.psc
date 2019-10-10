@@ -5,8 +5,8 @@ Algoritmo sin_titulo
 	escribir "introduce el numero"
 	leer num;
 	Para i<-1 Hasta 10 Con Paso 1 Hacer
-		multiplos=num*i
-		escribir multiplos
+		multiplos=num*i;
+		escribir multiplos;
 	Fin Para
-	
+//me he dejado 2 puntos y coma 	
 FinAlgoritmo
