@@ -1,6 +1,6 @@
 subproceso mostrarvectores(vnombre,vedad,tamano)
 	Para i<-1 Hasta tamano Con Paso 1 Hacer
-		escribir vnombre[i] " " vedad[i] 
+		escribir vnombre[i] " " vedad[i]; 
 	Fin Para
 FinSubProceso
 
@@ -13,7 +13,7 @@ Algoritmo sin_titulo
 	definir tamano como entero;
 	
 	tamano=0;
-	escribir "dime tamaño de los vectores"
+	escribir "dime tamaÃ±o de los vectores";
 	leer tamano;
 	
 	dimension vedad[tamano];
@@ -27,7 +27,8 @@ Algoritmo sin_titulo
 		leer vedad[i];
 	Fin Para
 	
-	mostrarvectores(vnombre,vedad,tamano)
+	mostrarvectores(vnombre,vedad,tamano);
 	
 	
 FinAlgoritmo
+// me he dejado 3 puntos y coma
