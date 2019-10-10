@@ -5,7 +5,7 @@ SubProceso  nomconespacios(nombre)
 		si (subcadena(nombre,i,i)!=" ") Entonces
 			nombral=nombral+subcadena(nombre,i,i)+ " ";
 		SiNo
-			nombral=nombral+Subcadena(nombre,i,i)
+			nombral=nombral+Subcadena(nombre,i,i);
 			FinSi
 			
 	Fin Para
@@ -22,10 +22,9 @@ Algoritmo sin_titulo
 	
 	nombre="";
 	
-	escribir "introduce una frase"
-	leer nombre
+	escribir "introduce una frase";
+	leer nombre;
 	
-	nombre=Minusculas(nombre)
-	nomconespacios(nombre)
-	
+	nomconespacios(nombre);
+	//he corregido los puntos y comas y he quitado la funcion minuscula
 FinAlgoritmo
