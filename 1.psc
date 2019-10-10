@@ -8,5 +8,6 @@ Algoritmo sin_titulo
 		multiplos=num*i;
 		escribir multiplos;
 	Fin Para
-//me he dejado 2 puntos y coma 	
+	
 FinAlgoritmo
+//me he dejado 2 puntos y coma 
